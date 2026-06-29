@@ -76,6 +76,8 @@ ltm persistence source-addr ftps_source_persist {
     # match-across-services aanzetten als control- en datachannel
     # als losse virtuals worden gezien
     match-across-services enabled
+    # persistence-records spiegelen naar de standby unit (HA failover)
+    mirror enabled
 }
 ```
 
