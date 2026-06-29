@@ -129,6 +129,7 @@ ltm virtual vs_ftps {
         }
     }
     pool ftps_pool
+    mirror enabled
     persist {
         ftps_source_persist { }
     }
